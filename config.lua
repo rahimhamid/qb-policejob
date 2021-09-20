@@ -205,28 +205,96 @@ Config.Radars = {
 	vector4(-823.3688, -1146.980, 8.0, 300.0),
 }
 
-Config.CarItems = {
+Config.AuthorizedVehicles = {
+    -- Grade 0
+    [0] = {
+        ["police"] = "Police Car 1",
+        ["police2"] = "Police Car 2",
+        ["police3"] = "Police Car 3",
+        ["police4"] = "Police Car 4",
+        ["policeb"] = "Police Car 5",
+        ["policet"] = "Police Car 6",
+        ["sheriff"] = "Sheriff Car 1",
+        ["sheriff2"] = "Sheriff Car 2",
+    },
+    -- Grade 1
     [1] = {
-        name = "heavyarmor",
-        amount = 2,
-        info = {},
-        type = "item",
-        slot = 1,
+        ["police"] = "Police Car 1",
+        ["police2"] = "Police Car 2",
+        ["police3"] = "Police Car 3",
+        ["police4"] = "Police Car 4",
+        ["policeb"] = "Police Car 5",
+        ["policet"] = "Police Car 6",
+        ["sheriff"] = "Sheriff Car 1",
+        ["sheriff2"] = "Sheriff Car 2",
+
     },
+    -- Grade 2
     [2] = {
-        name = "empty_evidence_bag",
-        amount = 10,
-        info = {},
-        type = "item",
-        slot = 2,
+        ["police"] = "Police Car 1",
+        ["police2"] = "Police Car 2",
+        ["police3"] = "Police Car 3",
+        ["police4"] = "Police Car 4",
+        ["policeb"] = "Police Car 5",
+        ["policet"] = "Police Car 6",
+        ["sheriff"] = "Sheriff Car 1",
+        ["sheriff2"] = "Sheriff Car 2",
     },
+    -- Grade 3
     [3] = {
-        name = "police_stormram",
-        amount = 1,
-        info = {},
-        type = "item",
-        slot = 3,
+        ["police"] = "Police Car 1",
+        ["police2"] = "Police Car 2",
+        ["police3"] = "Police Car 3",
+        ["police4"] = "Police Car 4",
+        ["policeb"] = "Police Car 5",
+        ["policet"] = "Police Car 6",
+        ["sheriff"] = "Sheriff Car 1",
+        ["sheriff2"] = "Sheriff Car 2",
     },
+    -- Grade 4
+    [4] = {
+        ["police"] = "Police Car 1",
+        ["police2"] = "Police Car 2",
+        ["police3"] = "Police Car 3",
+        ["police4"] = "Police Car 4",
+        ["policeb"] = "Police Car 5",
+        ["policet"] = "Police Car 6",
+        ["sheriff"] = "Sheriff Car 1",
+        ["sheriff2"] = "Sheriff Car 2",
+    }, 
+    -- Grade 5
+    [5] = {
+        ["police"] = "Police Car 1",
+        ["police2"] = "Police Car 2",
+        ["police3"] = "Police Car 3",
+        ["police4"] = "Police Car 4",
+        ["policeb"] = "Police Car 5",
+        ["policet"] = "Police Car 6",
+        ["sheriff"] = "Sheriff Car 1",
+        ["sheriff2"] = "Sheriff Car 2",
+    },
+    -- Grade 6
+    [6] = {
+        ["police"] = "Police Car 1",
+        ["police2"] = "Police Car 2",
+        ["police3"] = "Police Car 3",
+        ["police4"] = "Police Car 4",
+        ["policeb"] = "Police Car 5",
+        ["policet"] = "Police Car 6",
+        ["sheriff"] = "Sheriff Car 1",
+        ["sheriff2"] = "Sheriff Car 2",
+    },    
+    -- Grade 7
+    [7] = {
+        ["police"] = "Police Car 1",
+        ["police2"] = "Police Car 2",
+        ["police3"] = "Police Car 3",
+        ["police4"] = "Police Car 4",
+        ["policeb"] = "Police Car 5",
+        ["policet"] = "Police Car 6",
+        ["sheriff"] = "Sheriff Car 1",
+        ["sheriff2"] = "Sheriff Car 2",
+    }
 }
 
 Config.Items = {
@@ -245,7 +313,7 @@ Config.Items = {
             },
             type = "weapon",
             slot = 1,
-            authorizedJobGrades = {0, 1, 2, 3, 4}
+            authorizedJobGrades = {0, 1, 2, 3,4,5,6, 7}
         },
         [2] = {
             name = "weapon_stungun",
@@ -256,7 +324,7 @@ Config.Items = {
             },
             type = "weapon",
             slot = 2,
-            authorizedJobGrades = {0, 1, 2, 3, 4}
+            authorizedJobGrades = {0, 1, 2, 3,4,5,6, 7}
         },
         [3] = {
             name = "weapon_pumpshotgun",
@@ -270,7 +338,7 @@ Config.Items = {
             },
             type = "weapon",
             slot = 3,
-            authorizedJobGrades = {0, 1, 2, 3, 4}
+            authorizedJobGrades = {0, 1, 2, 3,4,5,6, 7}
         },
         [4] = {
             name = "weapon_smg",
@@ -285,7 +353,7 @@ Config.Items = {
             },
             type = "weapon",
             slot = 4,
-            authorizedJobGrades = {0, 1, 2, 3, 4}
+            authorizedJobGrades = {0, 1, 2, 3,4,5,6, 7}
         },
         [5] = {
             name = "weapon_carbinerifle",
@@ -300,7 +368,7 @@ Config.Items = {
             },
             type = "weapon",
             slot = 5,
-            authorizedJobGrades = {0, 1, 2, 3, 4}
+            authorizedJobGrades = {0, 1, 2, 3,4,5,6, 7}
         },
         [6] = {
             name = "weapon_nightstick",
@@ -309,7 +377,7 @@ Config.Items = {
             info = {},
             type = "weapon",
             slot = 6,
-            authorizedJobGrades = {0, 1, 2, 3, 4}
+            authorizedJobGrades = {0, 1, 2, 3,4,5,6, 7}
         },
         [7] = {
             name = "pistol_ammo",
@@ -318,7 +386,7 @@ Config.Items = {
             info = {},
             type = "item",
             slot = 7,
-            authorizedJobGrades = {0, 1, 2, 3, 4}
+            authorizedJobGrades = {0, 1, 2, 3,4,5,6, 7}
         },
         [8] = {
             name = "smg_ammo",
@@ -327,7 +395,7 @@ Config.Items = {
             info = {},
             type = "item",
             slot = 8,
-            authorizedJobGrades = {0, 1, 2, 3, 4}
+            authorizedJobGrades = {0, 1, 2, 3,4,5,6, 7}
         },
         [9] = {
             name = "shotgun_ammo",
@@ -336,7 +404,7 @@ Config.Items = {
             info = {},
             type = "item",
             slot = 9,
-            authorizedJobGrades = {0, 1, 2, 3, 4}
+            authorizedJobGrades = {0, 1, 2, 3,4,5,6, 7}
         },
         [10] = {
             name = "rifle_ammo",
@@ -345,7 +413,7 @@ Config.Items = {
             info = {},
             type = "item",
             slot = 10,
-            authorizedJobGrades = {0, 1, 2, 3, 4}
+            authorizedJobGrades = {0, 1, 2, 3,4,5,6, 7}
         },
         [11] = {
             name = "handcuffs",
@@ -354,7 +422,7 @@ Config.Items = {
             info = {},
             type = "item",
             slot = 11,
-            authorizedJobGrades = {0, 1, 2, 3, 4}
+            authorizedJobGrades = {0, 1, 2, 3,4,5,6, 7}
         },
         [12] = {
             name = "weapon_flashlight",
@@ -363,7 +431,7 @@ Config.Items = {
             info = {},
             type = "weapon",
             slot = 12,
-            authorizedJobGrades = {0, 1, 2, 3, 4}
+            authorizedJobGrades = {0, 1, 2, 3,4,5,6, 7}
         },
         [13] = {
             name = "empty_evidence_bag",
@@ -372,7 +440,7 @@ Config.Items = {
             info = {},
             type = "item",
             slot = 13,
-            authorizedJobGrades = {0, 1, 2, 3, 4}
+            authorizedJobGrades = {0, 1, 2, 3,4,5,6, 7}
         },
         [14] = {
             name = "police_stormram",
@@ -381,7 +449,7 @@ Config.Items = {
             info = {},
             type = "item",
             slot = 14,
-            authorizedJobGrades = {0, 1, 2, 3, 4}
+            authorizedJobGrades = {0, 1, 2, 3,4,5,6, 7}
         },
         [15] = {
             name = "armor",
@@ -390,7 +458,7 @@ Config.Items = {
             info = {},
             type = "item",
             slot = 15,
-            authorizedJobGrades = {0, 1, 2, 3, 4}
+            authorizedJobGrades = {0, 1, 2, 3,4,5,6, 7}
         },
         [16] = {
             name = "radio",
@@ -399,7 +467,7 @@ Config.Items = {
             info = {},
             type = "item",
             slot = 16,
-            authorizedJobGrades = {0, 1, 2, 3, 4}
+            authorizedJobGrades = {0, 1, 2, 3,4,5,6, 7}
         },
         [17] = {
             name = "heavyarmor",
@@ -408,7 +476,7 @@ Config.Items = {
             info = {},
             type = "item",
             slot = 17,
-            authorizedJobGrades = {0, 1, 2, 3, 4}
+            authorizedJobGrades = {0, 1, 2, 3,4,5,6, 7}
         }
     }
 }
